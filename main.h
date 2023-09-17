@@ -14,9 +14,9 @@ int print(char *);
 /* printf.c */
 int _printf(const char *, ...);
 
-/* handler.c */
-int handler(const char *, va_list);
-int percent_handler(const char *, va_list, int *);
+/* handle_format.c */
+int handle_format(const char *, va_list);
+int percent_handler_format(const char *, va_list, int *);
 
 /* printers */
 int print_string(va_list);
@@ -41,4 +41,3 @@ typedef struct _format
 
 
 #endif
-
