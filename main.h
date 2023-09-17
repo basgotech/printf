@@ -21,6 +21,8 @@ char *intstr(long int, int);
 int handle_format(const char *, va_list);
 int percent_handler_format(const char *, va_list, int *);
 
+char *convert(unsigned long int num, int base, int lowercase);
+
 /* printers */
 int print_string(va_list);
 int print_char(va_list);
@@ -30,6 +32,7 @@ int print_un(va_list);
 int print_base8(va_list);
 int print_x_lower_hex(va_list);
 int print_X_upper_hex(va_list);
+int print_S(va_list list);
 
 /* _putchar.c */
 int _putchar(char);
