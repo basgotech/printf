@@ -14,6 +14,9 @@ int print(char *);
 /* printf.c */
 int _printf(const char *, ...);
 
+/* print intstr */
+char *intstr(long int, int);
+
 /* handle_format.c */
 int handle_format(const char *, va_list);
 int percent_handler_format(const char *, va_list, int *);
@@ -21,7 +24,7 @@ int percent_handler_format(const char *, va_list, int *);
 /* printers */
 int print_string(va_list);
 int print_char(va_list);
-
+int print_int(va_list);
 
 /* _putchar.c */
 int _putchar(char);

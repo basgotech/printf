@@ -44,7 +44,8 @@ int percent_handler_format(const char *str, va_list list, int *i)
 {
 	int size, j, number_formats;
 	format formats[] = {
-		{'s', print_string}, {'c', print_char}
+		{'s', print_string}, {'c', print_char},
+		{'d', print_int}, {'i', print_int}
 	};
 
 	*i = *i + 1;
