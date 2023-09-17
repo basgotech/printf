@@ -25,6 +25,7 @@ int percent_handler_format(const char *, va_list, int *);
 int print_string(va_list);
 int print_char(va_list);
 int print_int(va_list);
+int print_base2(va_list);
 
 /* _putchar.c */
 int _putchar(char);
