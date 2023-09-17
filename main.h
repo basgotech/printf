@@ -26,6 +26,10 @@ int print_string(va_list);
 int print_char(va_list);
 int print_int(va_list);
 int print_base2(va_list);
+int print_un(va_list);
+int print_base8(va_list);
+int print_x_lower_hex(va_list);
+int print_X_upper_hex(va_list);
 
 /* _putchar.c */
 int _putchar(char);
