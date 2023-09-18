@@ -33,6 +33,7 @@ int print_base8(va_list);
 int print_x_lower_hex(va_list);
 int print_X_upper_hex(va_list);
 int print_S(va_list list);
+int print_ptr(va_list list);
 
 /* _putchar.c */
 int _putchar(char);

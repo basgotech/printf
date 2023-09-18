@@ -53,7 +53,8 @@ int percent_handler_format(const char *str, va_list list, int *i)
 		{'o', print_base8},
 		{'x', print_x_lower_hex},
 		{'X', print_X_upper_hex},
-		{'S', print_S}
+		{'S', print_S},
+		{'p', print_ptr}
 	};
 
 	*i = *i + 1;
