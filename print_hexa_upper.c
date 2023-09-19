@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
