@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_percent - Prints a percent sign
+ * print_percent - Prints a percent sign.
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
