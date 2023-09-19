@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_operate - Prints an argument based on its type
+ * print_operate - Prints an argument based on its type.
  * @fmt: Formatted string in which to print the arguments.
  * @list: List of arguments to be printed.
  * @ind: ind.
