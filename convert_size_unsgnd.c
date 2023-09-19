@@ -2,9 +2,9 @@
 
 
 /**
- * convert_size_unsgnd - Casts a number to the specified size
- * @num: Number to be casted
- * @size: Number indicating the type to be casted
+ * convert_size_unsgnd - Casts a number to the specified size.
+ * @num: Number to be casted.
+ * @size: Number indicating the type to be casted.
  *
  * Return: Casted value of num
  */
