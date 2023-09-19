@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_precision - process the precision for printing
- * @format: Formatted string
+ * get_precision - process the precision for printing.
+ * @format: Formatted string.
  * @i: List of arguments to be printed out.
  * @list: list of arguments.
  * Return: Precision.
