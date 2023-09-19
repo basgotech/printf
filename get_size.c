@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_size - process the size to cast the argument
- * @format: Formatted string
+ * get_size - process the size to cast the argument.
+ * @format: Formatted string.
  * @i: List of arguments to be printed.
  * Return: Precision.
  */
